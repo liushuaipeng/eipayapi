@@ -8,7 +8,7 @@ module.exports = appInfo => {
   // 签名密匙妥善保管，不可泄露，务必修改
   config.secretkey = 'eipayapiByXiao';
   // 绑定的域名， 务必修改
-  config.domain = 'https://test.liushuaipeng.cn'; // 请指定协议
+  config.domain = 'http://liushuaipeng.cn:7001'; // 请指定协议
   // 支付宝userid pc登录 https://my.alipay.com/portal/i.htm 右键查看网页源代码搜索 userId 得到的值 和支付宝收款用户绑定
   config.alipayUserId = '2088502864969559';
   config.payMax = { // 设置随机立减金额，单位为0.01
